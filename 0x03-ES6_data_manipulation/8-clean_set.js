@@ -9,9 +9,9 @@ export default function cleanSet(set, startString) {
       return '';
     }
   
-    for (const items of set) {
-      if (items && items.startsWith(startString)) {
-        listItem.push(items.slice(startString.length));
+    for (const item of set) {
+      if (item && item.startsWith(startString)) {
+        list.push(item.slice(startString.length));
       }
     }
   
