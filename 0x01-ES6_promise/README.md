@@ -1,4 +1,4 @@
-## 0x01. ES6 Promises
+# 0x01. ES6 Promises
 ![image](https://user-images.githubusercontent.com/106770765/234449412-7cf4636d-5e83-4a56-b893-b6cd69706b96.png)
 
 
