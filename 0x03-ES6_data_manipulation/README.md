@@ -1,6 +1,9 @@
 # 0x03. ES6 data manipulation
 
 
+
+![array](https://user-images.githubusercontent.com/106770765/234446429-ee476d55-4c68-462d-a5b2-6efef021c119.jpg)
+
 ## Resources
 
 Read or watch:
