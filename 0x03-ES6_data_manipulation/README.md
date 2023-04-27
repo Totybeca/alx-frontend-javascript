@@ -1,28 +1,33 @@
-0x03. ES6 data manipulation
-JavaScript ES6
+# 0x03. ES6 data manipulation
 
-By: Johann Kerbrat, Engineering Manager at Uber Works
-Weight: 1
-Project will start Jan 2, 2023 6:00 AM, must end by Jan 4, 2023 6:00 AM
-will be released at Jan 2, 2023 6:00 PM
-An auto review will be launched at the deadline
-array
 
-Resources
+
+![array](https://user-images.githubusercontent.com/106770765/234446429-ee476d55-4c68-462d-a5b2-6efef021c119.jpg)
+
+## Resources
+
 Read or watch:
 
-Array
-Typed Array
-Set Data Structure
-Map Data Structure
-WeakMap
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+[array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) 
+
+[Typed array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) 
+
+[Set Data Structure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) 
+
+[Map Data Structure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) 
+
+[Weak Map](https://developer.mozilla.org/en-The Set, Map, and Weak link data structuresUS/docs/Web/JavaScript/Reference/Global_Objects/Map) 
+# Learning Objectives
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), without the help of Google:
+
 
 How to use map, filter and reduce on arrays
+
 Typed arrays
+
 The Set, Map, and Weak link data structures
-Requirements
+
+# Requirements
 All your files will be executed on Ubuntu 18.04 LTS using NodeJS 12.11.x
 Allowed editors: vi, vim, emacs, Visual Studio Code
 All your files should end with a new line
@@ -32,25 +37,21 @@ Your code will be tested using Jest and the command npm run test
 Your code will be verified against lint using ESLint
 Your code needs to pass all the tests and lint. You can verify the entire project running npm run full-test
 All of your functions must be exported
-Setup
-Install NodeJS 12.11.x
-(in your home directory):
 
-curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
-sudo bash nodesource_setup.sh
-sudo apt install nodejs -y
-$ nodejs -v
-v12.11.1
-$ npm -v
-6.11.3
-Install Jest, Babel, and ESLint
+# Setup
+
+## Install NodeJS 12.11.x
+
+## Install Jest, Babel, and ESLint
 in your project directory:
 
 Install Jest using: npm install --save-dev jest
 Install Babel using: npm install --save-dev babel-jest @babel/core @babel/preset-env
 Install ESLint using: npm install --save-dev eslint
-Configuration files
-package.json
+
+# Configuration files
+## package.json
+
 {
   "scripts": {
     "lint": "./node_modules/.bin/eslint",
@@ -70,7 +71,8 @@ package.json
     "jest": "^24.9.0"
   }
 }
-babel.config.js
+
+## babel.config.js
 module.exports = {
   presets: [
     [
@@ -83,7 +85,9 @@ module.exports = {
     ],
   ],
 };
-.eslintrc.js
+
+## .eslintrc.js
+
 module.exports = {
   env: {
     browser: false,
@@ -121,7 +125,10 @@ module.exports = {
     }
   ]
 };
-and…
+
+## and…
 Don’t forget to run $ npm install when you have the package.json
 
+## License
 
+[ALX_Africa]
